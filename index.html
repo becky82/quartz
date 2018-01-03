@@ -1,0 +1,48 @@
+<html>
+  <head>
+    <title>Quartz: a Latin square autotopism game</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="main.css">
+  </head>
+  <body onload="initialization()">
+    <h1 id="header"><i>Quartz</i>: a Latin square autotopism game (pre-alpha)</h1>
+
+    Click the purple buttons until<br>
+    <ul style="list-style-type:circle">
+      <li>every row contains every symbol in {0..n-1}, and</li>
+      <li>every column contains every symbol in {0..n-1}.</li>
+    </ul>
+    <br>
+
+      <script type="text/javascript" src="main.js"></script>
+
+      <script type="text/javascript">
+         <!--
+            for(var i = 0; i < n; i++) {
+              for(var j = 0; j < n; j++) {
+                document.write("<button class=\"cell\" onclick=\"cellClick(" + i + "," + j + ")\"><span id=\"symbolOut" + i + "r" + j + "\">0</span></button>");
+              }
+              document.write("<button class=\"nocell\"><span id=\"row" + i + "unused\"></span></button>");
+              document.write("<br>");
+            }
+            for(var j = 0; j < n; j++) {
+              document.write("<button class=\"nocell\"><span id=\"col" + j + "unused\"></span></button>");
+            }
+         //-->
+      </script>
+
+    <br><br>
+
+    <i>Autotopism</i>: <span id="iso"></span>.<br><br>
+
+    <br><br>
+    
+    <span id="latinfound"></span>
+
+    <br><br>
+
+    <span id="latin"></span>
+
+  </body>
+</html>
+

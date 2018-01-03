@@ -1,0 +1,14 @@
+.cell {
+    color: white;
+    background-color: #990099;
+    width: 2em;
+    height: 2em;
+    font-size: 1em;
+}
+.nocell {
+    color: black;
+    background-color: white;
+    width: 2em;
+    height: 2em;
+    font-size: 1em;
+}
