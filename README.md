@@ -35,7 +35,7 @@ To make the game more fun:
 <ul style="list-style-type:circle">
   <li>Keep a statistics table (no. clicks, time spent on puzzle, etc.).</li>
   <li>Add some "achievements".</li>
-  <li>Add sounds for hover, click.</li>
+  <li>Add sounds for hover, click, etc., background music.</li>
 </ul>
 
 <i>Rebecca J. Stones</i>
